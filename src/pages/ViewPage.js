@@ -37,10 +37,6 @@ export default function ViewPage(props) {
       <div className="row">
         <div
           className="d-inline-block position-relative overflow-hidden"
-          style={{
-            "--body-top-padding": "24px",
-            paddingTop: "var(--body-top-padding)",
-          }}
         >
           <Widget key={src} src={src} props={widgetProps} />{" "}
         </div>
